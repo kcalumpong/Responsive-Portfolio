@@ -237,18 +237,13 @@ input {
        width: 80%;
        height: 350px;
        margin-left: 30px;
-       height: 410px;  
-       line-length:   
+       height: 410px;    
     }
 
+    .portfolio {
+        width: 80%;
+    }
 
-    
-
-   
-
-
-
-}
 
 @media screen and (max-width: 768px) {
 
@@ -265,19 +260,19 @@ input {
     }
 
 
-    
 
-    
 }
 
 @media screen and (max-width: 640px) {
-
+ 
+    /* h1 and nav on all html files */
     #fixed {
-        width: 90%;
-        margin-left: 30px;
+        width: 80%;
+        margin: 0px;
         display: block;
     }
 
+    /* h2, image and p on index.html */
     #mainContent {
        width: 80%;
        height: 350px;
@@ -285,15 +280,23 @@ input {
        height: 520px;   
     }
 
-    nav {
-        display: block;
-
-    }
 
     h1 {
-        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        margin: 0;
 
     }
+
+    img {
+        float: none;
+        display: block;
+    }
+
+
+
+  
   
 
     
