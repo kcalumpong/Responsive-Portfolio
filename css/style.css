@@ -39,6 +39,8 @@ nav a {
     width: 987px;
     margin: 0 auto;
     padding: 10px 15px;
+    position: relative;
+    z-index: 1;
 }
 
 #mainContent {
@@ -172,7 +174,7 @@ form a {
     margin-top: 100px;
     color: #777777;
     padding: 10px 15px;
-    height: 685px;
+    height: 600px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 1.5em;
@@ -221,4 +223,78 @@ input {
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
     width: 690px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+    #fixed {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    #mainContent {
+       width: 80%;
+       height: 350px;
+       margin-left: 30px;
+       height: 410px;  
+       line-length:   
+    }
+
+
+    
+
+   
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #fixed {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    #mainContent {
+       width: 80%;
+       height: 350px;
+       margin-left: 30px;
+       height: 410px;   
+    }
+
+
+    
+
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    #fixed {
+        width: 90%;
+        margin-left: 30px;
+        display: block;
+    }
+
+    #mainContent {
+       width: 80%;
+       height: 350px;
+       margin-left: 30px;
+       height: 520px;   
+    }
+
+    nav {
+        display: block;
+
+    }
+
+    h1 {
+        display: block;
+
+    }
+  
+
+    
 }
