@@ -69,11 +69,6 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
 }
-img {
-    float: left;
-    width: 200px;
-    margin-right: 20px;
-}
 
 hr {
     display: block; height: 1px;
@@ -81,7 +76,15 @@ hr {
     margin: 1em 0; padding: 0;
 }
 
+img {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+
 footer {
+    overflow: auto;
     background-color: #666666;
     border-color: #4AAAA5;
     border-width: 5px;
@@ -93,6 +96,7 @@ footer {
     margin: 0;
     color: #ffffff;
     z-index: 2;
+
 }
 
 footer p {
@@ -269,10 +273,21 @@ input {
    margin-left: 30px;
    height: 100%;    
 }
- 
+
+#mainContent img {
+    float: none;
+    overflow; auto;
+    margin: 0 20%;
+    
 }
 
-}
+
+
+
+
+
+
+
 
 @media screen and (min-width: 480px) {
 
@@ -289,4 +304,3 @@ input {
    height: 100%;    
 }
  
-}
