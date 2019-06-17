@@ -233,6 +233,9 @@ input {
     width: 690px;
 }
 
+#wrapper {
+    width: 100%;
+}
 
 
 
@@ -250,6 +253,26 @@ input {
        margin-left: 30px;
        height: 100%;    
     }
+
+    #wrapper{
+        width: 55%;
+        margin-left: 35px;
+    }
+
+   #secondpage {
+       width: 550px;
+   }
+
+   input {
+       width: 550px;
+   }
+
+   textarea {
+       width: 555px;
+   }
+
+
+
 
 
 @media screen and (max-width: 768px) {
