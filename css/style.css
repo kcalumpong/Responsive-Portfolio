@@ -282,9 +282,29 @@ input {
     }
 
     #wrapper {
-        width: 50%;
+        width: 100%;
+        position: relative;
+        margin-left: 0;
+
     }
 
+    #secondpage {
+    margin: 90px auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 90%;
+    
+}
+
+input {
+    width: 99%;
+}
+
+textarea {
+    width: 100%;
+}
 
 
 
@@ -296,7 +316,6 @@ input {
  #fixed {
     width: 100%;
     margin: 0;
-
 }
 
 h1 {
