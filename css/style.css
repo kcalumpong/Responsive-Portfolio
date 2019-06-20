@@ -174,7 +174,7 @@ form a {
 .portfolio {
     position: relative;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color:#ffffff;
     width: 700px;
     border-style: solid;
     border-color: #dddddd;
@@ -241,82 +241,69 @@ input {
 
 @media screen and (max-width: 980px) {
     
- /* h1 and nav on all html files */
-    #fixed {
-        width: 89%;
-        margin-left: 30px;
-    }
+/* h1 and nav on all html files */
+#fixed {
+    width: 89%;
+    margin-left: 30px;
+}
 
 /* h2, image and p on index.html */
-    #mainContent {
-       width: 70%;
-       margin-left: 30px;
-       height: 100%;    
-    }
-
-    #wrapper{
-        width: 55%;
-        margin-left: 35px;
-    }
-
-   #secondpage {
-       width: 550px;
-   }
-
-   input {
-       width: 550px;
-   }
-
-   textarea {
-       width: 555px;
-   }
-
-   .portfolio {
-     width: 50%;
-   }
-
-   .box {
-
-   }
-
-   .portfolio img {
-    width: 100%;
+#mainContent {
+    width: 70%;
+    margin-left: 30px;
+    height: 100%;    
 }
 
-
-
-
+#wrapper{
+    width: 55%;
+    margin-left: 35px;
 }
 
+#secondpage {
+    width: 550px;
+}
+
+input {
+    width: 550px;
+}
+
+textarea {
+    width: 555px;
+}
+
+.portfolio {
+    margin-left: 20px;
+    padding-right: 0px;
+    width: 500px;
+}
+
+.column_two {
+    width: 50%;
+    float: right;
+}
+
+}
    
-
-
-
-
-
-
 
 @media screen and (max-width: 768px) {
 
-    #fixed {
-        width: 90%;
-    }
+#fixed {
+    width: 85%;
+}
 
-    #wrapper {
-        width: 100%;
-        position: relative;
-        margin-left: 0;
+#wrapper {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+}
 
-    }
-
-    #secondpage {
-    margin: 90px auto;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: absolute;
-    width: 90%;
-    
+#secondpage {
+margin: 90px auto;
+top: 0;
+right: 0;
+left: 0;
+position: absolute;
+width: 90%;
 }
 
 input {
@@ -327,13 +314,19 @@ textarea {
     width: 100%;
 }
 
-.portfolio img {
-    width: 25%;
+.portfolio {
+    margin: 100px auto;
+    padding-right: 0px;
+    width: 500px;
 }
 
-
+.column_two {
+      width: 50%;
+      float: right;
+}
 
 }
+
 
 @media screen and (max-width: 640px) {
 
@@ -375,6 +368,24 @@ nav {
 
 span {
     visibility: hidden;
+}
+
+.column_one {
+    float: none;
+    margin: 10px auto;
+    width: 67%;
+    
+}
+
+.column_two {
+    margin: -8px auto;
+    width: 293px;
+
+}
+
+.portfolio {
+    width: 350px;
+    height: 930px;
 }
 
 }
