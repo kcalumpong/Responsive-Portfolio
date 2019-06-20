@@ -271,6 +271,27 @@ input {
        width: 555px;
    }
 
+   .portfolio {
+     width: 50%;
+   }
+
+   .box {
+
+   }
+
+   .portfolio img {
+    width: 100%;
+}
+
+
+
+
+}
+
+   
+
+
+
 
 
 
@@ -304,6 +325,10 @@ input {
 
 textarea {
     width: 100%;
+}
+
+.portfolio img {
+    width: 25%;
 }
 
 
